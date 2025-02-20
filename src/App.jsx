@@ -10,15 +10,15 @@ import ProjectCss from "./Component/ProjectCss/ProjectCss";
 import ProjectJs from "./Component/ProjectJs/ProjectJs";
 import ProjectReact from "./Component/ProjectReact/ProjectReact";
 import MyProjects from "./Component/MyProjects/MyProjects";
-import Home from "./Component/home/home";
+
+
 
 let x = createBrowserRouter([
   {
     path: "",
     element: <Layout />,
     children: [
-      { index: true, element: <Home /> },
-      { path: "About", element: <About /> },
+      {index: true, element: <About /> },
       {
         path: "myProjects",
         element: <MyProjects />,

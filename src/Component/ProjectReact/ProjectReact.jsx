@@ -2,6 +2,7 @@ import React from "react";
 import PROJECT1 from "/src/assets/hero img.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import ShopShow from "/src/assets/ShopShow.jpg"
 function ProjectReact() {
   return (
     <>
@@ -12,13 +13,13 @@ function ProjectReact() {
           transition={{ duration: 1.5 }}
         >
           <div className="grid justify-center items-center">
-            <div className=" port min-hover p-5 col-span-3 max-w-md bg-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className=" port min-hover p-5 col-span-3 max-w-md bg-white border-gray-200 rounded-lg shadow-lg ">
               <div className="">
                 <div className=" overflow-hidden rounded-md ">
                   <img
                     className="rounded-t-lg w-full h-64 rounded-lg transition-all hover:scale-105 "
-                    src={PROJECT1}
-                    alt
+                    src={ShopShow}
+                    alt="ShopShow"
                   />
                 </div>
                 <div className="my-2">
