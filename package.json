@@ -1,13 +1,13 @@
 {
-  "name": "Portfolio",
-  "private": true,
+  "name": "portfolio",
+  "private":true,
   "version": "0.0.0",
-  // "homepage": "https://mohamed-yoseef.github.io/Portfolio",
+  "homepage": "https://mohamed-yoseef.github.io/Portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
