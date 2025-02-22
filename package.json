@@ -2,7 +2,7 @@
   "name": "Portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mohamed-yoseef.github.io/Portfolio",
+  // "homepage": "https://mohamed-yoseef.github.io/Portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
