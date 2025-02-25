@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import MyLogo from "/src/assets/Muhamed 1.png";
 
 function Navbar() {
+  const [isOpen, setIsOpen]= useState(false)
   return (
     <>
       <nav className="fixed w-full z-20 top-0 start-0 shadow-md bg">
@@ -16,15 +17,16 @@ function Navbar() {
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
            
             <button
+            onClick={()=> setIsOpen(!isOpen)}
               data-collapse-toggle="navbar-sticky"
               type="button"
-              className="xs:inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+              className="xs:inline-flex items-center p-2 w-8 h-8 justify-center text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 "
               aria-controls="navbar-sticky"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
               <svg
-                className="w-5 h-5"
+                className="w-4 h-4"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
