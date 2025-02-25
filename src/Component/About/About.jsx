@@ -1,11 +1,8 @@
 import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-// import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import MyLogo from "/src/assets/MyLogo.jpg";
-// import icon from "/src/assets/icon.svg";
-// import myVideo from "/src/assets/video.mp4";
-// import image from "/src/assets/MyLogo.jpg";
+import MyLogo from "/src/assets/Muhamed 1.png";
+
 function About() {
   const MyComponent = () => (
     <div className="">
@@ -27,12 +24,12 @@ function About() {
       <div className="container">
         <div className="lg:grid lg:grid-flow-col mx-1 lg:relative gap-8 justify-center">
           <div className="item1  lg:sticky lg:top-28 lg:left-0 p-5 py-6 lg:max-h-[500px] shadow-drop-bl lg:col-span-6 flex flex-col items-center justify-center gap-4 md:gap-7">
-            <div className="main-image col-span-4 max-h-[250px] max-w-[250px]">
+            <div className="main-image col-span-4 max-h-[275px] max-w-[275px]">
               <img className="flicker-in-1 rounded-full " src={MyLogo} alt="" />
             </div>
             <div className=" m-2 text-center ">
               <h4 className=" text-xl md:text-3xl font-bold myName">
-                Mohamed Yousef
+                Mohamed Youssef
               </h4>
               <p className="text-lg">Front End developer</p>
             </div>

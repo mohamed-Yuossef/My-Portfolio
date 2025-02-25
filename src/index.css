@@ -32,6 +32,7 @@ p {
   overflow: hidden;
   padding: 3px;
   margin: 7px;
+  width: fit-content;
   transition: all 1s;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -47,6 +48,7 @@ p {
   bottom: 0;
   left: 0;
   z-index: 5;
+  
 }
 
 .myName {
@@ -286,7 +288,6 @@ ul .icon i {
   border: 2px solid #191b1e;
   padding: 0 15px;
   font-size: 14px;
-  font-family: var(--font-secondary);
   color: #c4cfde;
   box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset,
     -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function MyProjects() {
   return (
     <>
-      <div className=" active-project grid grid-flow-row-dense grid-cols-4 my-14 relative">
+      <div className="active-project grid grid-flow-row-dense grid-cols-4 my-14 ">
         <div className="toNav col-span-12 lg:col-span-1">
           <ul className="flex gap-2 lg:gap-6 lg:flex-col  mx-auto w-fit py-4 lg:px-5 ">
             <motion.div
@@ -49,8 +49,7 @@ function MyProjects() {
             </motion.div>
           </ul>
         </div>
-
-        <div className="col-span-12 lg:col-span-3">
+        <div className="grid col-span-full w-[100%] lg:col-span-3 mx-auto">
           <Outlet />
         </div>
       </div>
