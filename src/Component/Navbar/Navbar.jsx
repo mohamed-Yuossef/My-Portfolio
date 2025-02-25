@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
 import { Link, NavLink } from "react-router-dom";
 import MyLogo from "/src/assets/Muhamed 1.png";
 
 function Navbar() {
-  const [isOpen, setIsOpen]= useState(false)
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <nav className="fixed w-full z-20 top-0 start-0 shadow-md bg">
@@ -12,40 +13,28 @@ function Navbar() {
             href=""
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img src={MyLogo} className="w-12 h-12 rounded-full bg-cover" alt=" Logo" />
+            <img
+              src={MyLogo}
+              className="w-12 h-12 rounded-full bg-cover"
+              alt=" Logo"
+            />
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-           
             <button
-            onClick={()=> setIsOpen(!isOpen)}
-              data-collapse-toggle="navbar-sticky"
-              type="button"
-              className="xs:inline-flex items-center p-2 w-8 h-8 justify-center text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 "
-              aria-controls="navbar-sticky"
-              aria-expanded="false"
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-white md:hidden"
             >
-              <span className="sr-only">Open main menu</span>
-              <svg
-                className="w-4 h-4"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 17 14"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M1 1h15M1 7h15M1 13h15"
-                />
-              </svg>
+              {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
           </div>
-          <div className="nav1 items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-            id="navbar-sticky"
+          <div
+            className={`nav1 items-center justify-between  w-full md:flex md:w-auto md:order-1 transition-all ${
+              isOpen ? "block" : "hidden"
+            } `}
           >
-            <ul className="nav-active flex flex-col p-4 md:p-0 mt-4   md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
+            <ul
+              className={`nav-active flex flex-col p-4 md:p-0 mt-4   md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 `}
+            >
               <li>
                 <NavLink
                   to="/"
@@ -71,8 +60,8 @@ function Navbar() {
                   Contact
                 </NavLink>
               </li>
-             
             </ul>
+          
           </div>
         </div>
       </nav>
