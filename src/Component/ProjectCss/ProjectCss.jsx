@@ -274,7 +274,7 @@ function ProjectCss() {
                     </p>
                     <div className="flex justify-between items-center">
                       <div className="flex gap-3 text-lg">
-                        <Link to=" https://mohamed-yuossef.github.io/devFolio/">
+                        <Link to="https://mohamed-yuossef.github.io/devFolio/">
                           <i className="fa-solid fa-link hover:text-red-600"></i>
                         </Link>
                         <Link to="https://github.com/mohamed-Yuossef/devFolio">

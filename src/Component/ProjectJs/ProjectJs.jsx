@@ -27,11 +27,14 @@ function ProjectJs() {
               >
                 <div className="port min-hover border border-slate-600 rounded-md p-1">
                   <div className=" overflow-hidden rounded-md ">
-                    <img
-                      className="rounded-t-lg w-full h-64 rounded-lg transition-all hover:scale-105 "
-                      src={Login}
-                      alt
-                    />
+                    <Link to="https://mohamed-yuossef.github.io/Login-System/">
+                      {" "}
+                      <img
+                        className="rounded-t-lg w-full h-64 rounded-lg transition-all hover:scale-105 "
+                        src={Login}
+                        alt
+                      />
+                    </Link>
                   </div>
                   <div className=" my-2 h-[130px]">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-red-800">
@@ -257,7 +260,7 @@ function ProjectJs() {
               <motion.div
                 initial={{ opacity: 0, x: 200 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 1}}
+                transition={{ duration: 1 }}
               >
                 <div className="port min-hover p-5  shadow border border-slate-600 rounded-md ">
                   <div className="overflow-hidden rounded-md ">
@@ -376,7 +379,7 @@ function ProjectJs() {
               <motion.div
                 initial={{ opacity: 0, x: 200 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8}}
+                transition={{ duration: 0.8 }}
               >
                 <div className="port min-hover p-5  shadow border border-slate-600 rounded-md">
                   <div className="overflow-hidden rounded-md ">
