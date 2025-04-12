@@ -43,13 +43,36 @@ function ProjectJs() {
                       in through it to reach the welcome page
                     </p>
                   </div>
-                  <div className="">
-                    <div className="flex w-3/4 text-lg  justify-between items-center border border-slate-600 rounded-md mt-1 px-7">
+                  <div className="flex justify-between items-center border border-slate-600 rounded-md mt-1 p-1">
+                    <div className="flex gap-3 text-lg">
                       <Link to="https://mohamed-yuossef.github.io/Login-System/">
                         <i className="fa-solid fa-link hover:text-red-600 transition-colors"></i>
                       </Link>
                       <Link to="https://github.com/mohamed-Yuossef/Login-System">
                         <i className="fa-brands fa-github hover:text-red-600 transition-colors"></i>
+                      </Link>
+                    </div>
+                    <div>
+                      <Link
+                        to="#"
+                        className=" hover:text-red-800 transition-colors inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg "
+                      >
+                        Read more
+                        <svg
+                          className="rtl:rotate-180 w-3.5 h-3.5 ms-2 "
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 14 10"
+                        >
+                          <path
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M1 5h12m0 0L9 1m4 4L9 9"
+                          />
+                        </svg>
                       </Link>
                     </div>
                   </div>
