@@ -18,7 +18,7 @@ function ProjectCss() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
         >
-          <div className="grid lg:grid-cols-9 md:grid-cols-6 lg:gap-5 gap-y-10 items-center justify-center">
+          <div className="grid lg:grid-cols-9 md:grid-cols-6  lg:gap-5 gap-y-10 items-center justify-center">
             <div className="col-span-3 max-w-xs">
               <motion.div
                 initial={{ opacity: 0, y: 150 }}
@@ -27,6 +27,7 @@ function ProjectCss() {
               >
                 <div className=" port min-hover p-1 gap-3 hover max-w-xs rounded-lg shadow ">
                   <div className=" overflow-hidden rounded-md ">
+                    
                     <img
                       className="rounded-t-lg w-full object-fill h-64 rounded-lg transition-all hover:scale-101 "
                       src={coffee}
@@ -251,7 +252,7 @@ function ProjectCss() {
                 </div>
               </motion.div>
             </div>
-            <div className="  col-span-3 max-w-xs ">
+            <div className="col-span-3 max-w-xs ">
               <motion.div
                 initial={{ opacity: 0, x: -200 }}
                 whileInView={{ opacity: 1, x: 0 }}

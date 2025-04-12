@@ -18,7 +18,7 @@ function MyProjects() {
               }}
             >
               <li>
-                <NavLink to="">Html&Css</NavLink>
+                <NavLink to="" end >Html&Css</NavLink>
               </li>
             </motion.div>
             <motion.div

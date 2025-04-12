@@ -56,7 +56,7 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.nav-active .active {
+.toNav .active {
   color: #878e99;
 }
 .nav-active .active::after {

@@ -1,7 +1,7 @@
 import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import MyLogo from "/src/assets/Muhamed 1.png";
+import MyLogo from "/src/assets/Muhamed 3.png";
 
 function About() {
   const MyComponent = () => (
@@ -24,7 +24,7 @@ function About() {
       <div className="container">
         <div className="lg:grid lg:grid-flow-col mx-1 lg:relative gap-8 justify-center">
           <div className="item1  lg:sticky lg:top-28 lg:left-0 p-5 py-6 lg:max-h-[500px] shadow-drop-bl lg:col-span-6 flex flex-col items-center justify-center gap-4 md:gap-7">
-            <div className="main-image col-span-4 max-h-[275px] max-w-[275px]">
+            <div className="main-image col-span-4 max-h-[280px] max-w-[280px]">
               <img className="flicker-in-1 rounded-full " src={MyLogo} alt="" />
             </div>
             <div className=" m-2 text-center ">
@@ -46,7 +46,7 @@ function About() {
                   }}
                 >
                   <li>
-                    <Link to="https://github.com/mohamed-yoseef?tab=repositories">
+                    <Link to="https://github.com/mohamed-Yuossef">
                       <div className="bounce social-icon  w-11 h-11  md:w-14 md:h-14">
                         <i className="fa-brands fa-github text-2xl bounce-out-top" />
                       </div>
@@ -143,7 +143,7 @@ function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.9 }}
                 >
-                  <h2 className="H2Text mt-10 text-xl md:text-3xl max-w-[450px]">
+                  <h2 className="H2Text mt-5 text-xl md:text-3xl max-w-[450px]">
                     I Develop Skills Regularly to Keep Me Update
                   </h2>
                 </motion.div>
@@ -160,62 +160,44 @@ function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1.3 }}
                 >
-                  {" "}
-                  <div className="box">
-                    <p>HTML</p>
-                    <div className="progress-box">
-                      <div className="progress-bar">
-                        <span className="line-css html-css"></span>
+                  <div>
+                    {" "}
+                    <div className="box">
+                      <p>HTML</p>
+                      <div className="progress-box">
+                        <div className="progress-bar">
+                          <span className="line-css html-css"></span>
+                        </div>
+                        <p className="increasing-percentage">95%</p>
                       </div>
-                      <p className="increasing-percentage">95%</p>
+                    </div>{" "}
+                    <div className="box">
+                      <p>Css</p>
+                      <div className="progress-box">
+                        <div className="progress-bar">
+                          <span className="line-css html-css"></span>
+                        </div>
+                        <p className="increasing-percentage">95%</p>
+                      </div>
                     </div>
-                  </div>{" "}
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0, y: 150 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1.4 }}
-                >
-                  {" "}
-                  <div className="box">
-                    <p>Css</p>
-                    <div className="progress-box">
-                      <div className="progress-bar">
-                        <span className="line-css html-css"></span>
+                    <div className="box">
+                      <p>JavaScript</p>
+                      <div className="progress-box">
+                        <div className="progress-bar">
+                          <span className="line identifier"></span>
+                        </div>
+                        <p className="increasing-percentage">90%</p>
                       </div>
-                      <p className="increasing-percentage">95%</p>
-                    </div>
-                  </div>
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0, y: 150 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1.5 }}
-                >
-                  {" "}
-                  <div className="box">
-                    <p>JavaScript</p>
-                    <div className="progress-box">
-                      <div className="progress-bar">
-                        <span className="line identifier"></span>
+                    </div>{" "}
+                    <div className="box">
+                      <p>React</p>
+                      <div className="progress-box">
+                        <div className="progress-bar">
+                         
+                          <span className="line identifier"></span>
+                        </div>
+                        <p className="increasing-percentage">90%</p>
                       </div>
-                      <p className="increasing-percentage">90%</p>
-                    </div>
-                  </div>{" "}
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0, y: 150 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 1.6 }}
-                >
-                  {" "}
-                  <div className="box">
-                    <p>React</p>
-                    <div className="progress-box">
-                      <div className="progress-bar">
-                        <span className="line identifier"></span>
-                      </div>
-                      <p className="increasing-percentage">90%</p>
                     </div>
                   </div>
                 </motion.div>

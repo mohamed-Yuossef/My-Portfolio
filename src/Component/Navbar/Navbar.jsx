@@ -52,7 +52,7 @@ function Navbar() {
                 {" "}
                 <li>
                   <NavLink
-                    to="/"
+                    to=""
                     className="NavLink  font-bold block py-1 px-5 "
                     aria-current="page"
                     onClick={handleNavClick}
