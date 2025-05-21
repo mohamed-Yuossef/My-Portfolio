@@ -49,7 +49,7 @@ function MyProjects() {
             </motion.div>
           </ul>
         </div>
-        <div className="grid col-span-full w-[100%] lg:col-span-3 mx-auto">
+        <div className="grid col-span-full w-[100%] lg:col-span-3 mx-auto overflow-hidden">
           <Outlet />
         </div>
       </div>

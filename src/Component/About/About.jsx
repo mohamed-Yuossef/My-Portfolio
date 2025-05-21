@@ -2,6 +2,7 @@ import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import MyLogo from "/src/assets/Muhamed 3.png";
+import TechMarquee from "../TechMarquee/TechMarquee";
 
 function About() {
   const MyComponent = () => (
@@ -22,8 +23,8 @@ function About() {
   return (
     <>
       <div className="container">
-        <div className="lg:grid lg:grid-flow-col mx-1 lg:relative gap-8 justify-center">
-          <div className="item1  lg:sticky lg:top-28 lg:left-0 p-5 py-6 lg:max-h-[500px] shadow-drop-bl lg:col-span-6 flex flex-col items-center justify-center gap-4 md:gap-7">
+        <div className="lg:grid lg:grid-flow-col items-start mx-1 lg:relative gap-8 justify-center mt-12">
+          <div className="item1  lg:fixed z-50 lg:top-0 lg:left-0 bottom-0 m-[30px] md:px-[30px]  shadow-drop-bl lg:col-span-6 flex flex-col items-center justify-center gap-4 md:gap-7">
             <div className="main-image col-span-4 max-h-[280px] max-w-[280px]">
               <img className="flicker-in-1 rounded-full " src={MyLogo} alt="" />
             </div>
@@ -34,7 +35,7 @@ function About() {
               <p className="text-lg">Front End developer</p>
             </div>
 
-            <div className="mt-4">
+            <div className="my-7">
               <ul className="flex justify-center gap-3 md:gap-8">
                 <motion.div
                   initial={{ opacity: 0, x: -300 }}
@@ -91,7 +92,7 @@ function About() {
               </ul>
             </div>
           </div>
-          <div className="lg:col-span-6">
+          <div className="lg:col-span-6 overflow-hidden lg:ml-[30%]">
             <div className="">
               <div className=" lg:col-span-6 text-left pt-6 md:px-9">
                 <motion.div
@@ -153,7 +154,10 @@ function About() {
                   transition={{ duration: 1.3 }}
                 >
                   {" "}
-                  <h1 className="my-4 text-2xl">MySkills</h1>{" "}
+                  <h1 className="my-4 text-2xl">MySkills</h1>
+                  <div className="flex justify-center px-4">
+                    <TechMarquee />
+                  </div>
                 </motion.div>
                 <motion.div
                   initial={{ opacity: 0, y: 150 }}
@@ -193,7 +197,6 @@ function About() {
                       <p>React</p>
                       <div className="progress-box">
                         <div className="progress-bar">
-                         
                           <span className="line identifier"></span>
                         </div>
                         <p className="increasing-percentage">90%</p>

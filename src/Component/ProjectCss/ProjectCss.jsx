@@ -196,8 +196,8 @@ function ProjectCss() {
             </div>
             <div className="col-span-3 max-w-xs">
               <motion.div
-                initial={{ opacity: 0, x: 200 }}
-                whileInView={{ opacity: 1, x: 0 }}
+               initial={{ opacity: 0, y: 150 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
                 <div className="port min-hover p-5  rounded-lg shadow">
@@ -254,8 +254,8 @@ function ProjectCss() {
             </div>
             <div className="col-span-3 max-w-xs ">
               <motion.div
-                initial={{ opacity: 0, x: -200 }}
-                whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 150 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
                 <div className="port rounded-lg shadow  p-5  min-hover">

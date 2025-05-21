@@ -198,8 +198,8 @@ function ProjectJs() {
             </div>
             <div className=" col-span-3 max-w-xs">
               <motion.div
-                initial={{ opacity: 0, x: -200 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, y: 150 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
                 <div className="port min-hover p-5 border border-slate-600 rounded-md">
@@ -256,8 +256,8 @@ function ProjectJs() {
             </div>
             <div className=" col-span-3 max-w-xs">
               <motion.div
-                initial={{ opacity: 0, x: 200 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, y: 150 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
                 <div className="port min-hover p-5  shadow border border-slate-600 rounded-md ">
@@ -316,9 +316,9 @@ function ProjectJs() {
             </div>
             <div className=" col-span-3 max-w-xs ">
               <motion.div
-                initial={{ opacity: 0, x: -200 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
+                initial={{ opacity: 0, y: 150 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
               >
                 <div className="port min-hover p-5  shadow border border-slate-600 rounded-md">
                   <div className=" overflow-hidden rounded-md ">
@@ -375,9 +375,9 @@ function ProjectJs() {
             </div>
             <div className=" col-span-3 max-w-xs">
               <motion.div
-                initial={{ opacity: 0, x: 200 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
+                initial={{ opacity: 0, y: 150 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
               >
                 <div className="port min-hover p-5  shadow border border-slate-600 rounded-md">
                   <div className="overflow-hidden rounded-md ">

@@ -161,7 +161,7 @@ const ContactForm = () => {
               </div>
             </div>
 
-            <div className="card-2 lg:w-6/12 h-full">
+            <div className="card-2 lg:w-6/12 h-full overflow-hidden">
               <div className="flex justify-between items-center">
                 <motion.div
                   initial={{ opacity: 0, y: -300 }}
