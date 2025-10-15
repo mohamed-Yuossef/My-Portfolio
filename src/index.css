@@ -203,9 +203,8 @@ ul .icon i {
   background: #151515;
   position: relative;
   z-index: 1;
-  height: 100%;
   transition: 0.5s all ease-in-out;
-  width: 100%;
+
 }
 :hover.min-hover {
   background-color: #151515;
