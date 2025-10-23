@@ -23,7 +23,7 @@ function ProjectReact() {
                 </div>
                 <div className="my-2">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-red-700">
-                    FreshCart
+                    Fresh Cart
                   </h5>
                   <p className="mb-3 font-normal text-gray-500 ">
                     An e-commerce website for shopping in different categories
@@ -33,11 +33,11 @@ function ProjectReact() {
                   </p>
                   <div className="flex justify-between items-center">
                     <div className="flex gap-3 text-lg">
-                      <Link to="https://fresh-cart-five-roan.vercel.app/login">
+                      <Link to="https://fresh-cart-5jic.vercel.app/register">
                         <i className="fa-solid fa-link hover:text-blue-700"></i>
                       </Link>
-                      <Link to="https://www.linkedin.com/posts/mohamed-yoseef-6084a3254_frontend-route-ecommerce-activity-7241067783906611201-gy0M?utm_source=share&utm_medium=member_desktop">
-                        <i class="fa-brands fa-linkedin-in hover:text-blue-700"></i>
+                      <Link to="https://github.com/mohamed-Yuossef/Fresh-Cart">
+                        <i className="fa-brands fa-linkedin-in hover:text-blue-700"></i>
                       </Link>
                     </div>
                     <div>
