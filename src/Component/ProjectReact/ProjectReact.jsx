@@ -33,7 +33,7 @@ function ProjectReact() {
                         <i className="fa-solid fa-link hover:text-blue-700"></i>
                       </Link>
                       <Link to="https://github.com/mohamed-Yuossef/Fresh-Cart">
-                        <i className="fa-brands fa-linkedin-in hover:text-blue-700"></i>
+                        <i className="fa-brands fa-github hover:text-red-600 transition-colors"></i>
                       </Link>
                     </div>
                     <div>
@@ -90,7 +90,7 @@ function ProjectReact() {
                         <i className="fa-solid fa-link hover:text-blue-700"></i>
                       </Link>
                       <Link to="https://github.com/mohamed-Yuossef/My-Store">
-                        <i className="fa-brands fa-linkedin-in hover:text-blue-700"></i>
+                        <i className="fa-brands fa-github hover:text-red-600 transition-colors"></i>
                       </Link>
                     </div>
                     <div>
@@ -145,7 +145,6 @@ function ProjectReact() {
                       <Link to="https://h-p-tau.vercel.app/">
                         <i className="fa-solid fa-link hover:text-blue-700"></i>
                       </Link>
-                     
                     </div>
                     <div>
                       <Link
