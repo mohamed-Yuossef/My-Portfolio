@@ -25,7 +25,7 @@ function ProjectJs() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <div className="port min-hover border border-slate-600 rounded-md p-1">
+                <div className="port  border border-slate-600 rounded-md p-1">
                   <div className=" overflow-hidden rounded-md ">
                     {" "}
                     <img
@@ -34,14 +34,11 @@ function ProjectJs() {
                       alt
                     />
                   </div>
-                  <div className=" my-2 h-[130px]">
+                  <div className=" my-2 ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-red-800">
                       Login System
                     </h5>
-                    <p className="mb-3 font-normal text-gray-500 dark:text-gray-300">
-                      A website is a system for creating an account and logging
-                      in through it to reach the welcome page
-                    </p>
+                  
                   </div>
                   <div className="flex justify-between items-center border border-slate-600 rounded-md mt-1 p-1">
                     <div className="flex gap-3 text-lg">
@@ -85,7 +82,7 @@ function ProjectJs() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                <div className="port min-hover p-5 border border-slate-600 rounded-md ">
+                <div className="port  p-5 border border-slate-600 rounded-md ">
                   <div className=" overflow-hidden rounded-md ">
                     <img
                       className="rounded-t-lg w-full h-64 rounded-lg transition-all hover:scale-105 "
@@ -93,13 +90,11 @@ function ProjectJs() {
                       alt="events"
                     />
                   </div>
-                  <div className="my-2 h-[130px] ">
+                  <div className="my-2  ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-red-800">
                       ُ Egyptian Party
                     </h5>
-                    <p className="mb-3 font-normal text-gray-500 dark:text-gray-300">
-                      ُ Egyptian Party Let's Have Fun
-                    </p>
+                  
                   </div>
                   <div className="flex justify-between items-center border border-slate-600 rounded-md mt-1 p-1">
                     <div className="flex gap-3 text-lg">
@@ -143,7 +138,7 @@ function ProjectJs() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.4 }}
               >
-                <div className="port min-hover p-5  border border-slate-600 rounded-md ">
+                <div className="port  p-5  border border-slate-600 rounded-md ">
                   <div className=" overflow-hidden rounded-md ">
                     <img
                       className="rounded-t-lg w-full h-64 rounded-lg transition-all hover:scale-105 "
@@ -151,14 +146,11 @@ function ProjectJs() {
                       alt="crud"
                     />
                   </div>
-                  <div className="my-2 h-[130px] ">
+                  <div className="my-2  ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-red-800">
                       CRUD
                     </h5>
-                    <p className="mb-3 font-normal text-gray-500 dark:text-gray-300">
-                      A website for adding products including name, category,
-                      price, and description.
-                    </p>
+                  
                   </div>
                   <div className="flex justify-between items-center border border-slate-600 rounded-md mt-1 p-1">
                     <div className="flex gap-3 text-lg">
@@ -202,7 +194,7 @@ function ProjectJs() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                <div className="port min-hover p-5 border border-slate-600 rounded-md">
+                <div className="port  p-5 border border-slate-600 rounded-md">
                   <div className=" overflow-hidden rounded-md ">
                     <img
                       className="rounded-t-lg w-full h-64 rounded-lg transition-all hover:scale-105 "
@@ -210,13 +202,11 @@ function ProjectJs() {
                       alt="games"
                     />
                   </div>
-                  <div className="my-2 h-[130px] ">
+                  <div className="my-2  ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-red-800">
                       GAMES
                     </h5>
-                    <p className="mb-3 font-normal text-gray-500 dark:text-gray-300">
-                      A website to display the games
-                    </p>
+                    
                   </div>
                   <div className="flex justify-between items-center border border-slate-600 rounded-md mt-1 p-1">
                     <div className="flex gap-3 text-lg">
@@ -260,7 +250,7 @@ function ProjectJs() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                <div className="port min-hover p-5  shadow border border-slate-600 rounded-md ">
+                <div className="port  p-5  shadow border border-slate-600 rounded-md ">
                   <div className="overflow-hidden rounded-md ">
                     <img
                       className="rounded-t-lg w-full h-64 rounded-lg transition-all hover:scale-105 "
@@ -268,15 +258,11 @@ function ProjectJs() {
                       alt="weather"
                     />
                   </div>
-                  <div className="my-2 h-[130px] ">
+                  <div className="my-2  ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-red-800">
                       Weather App
                     </h5>
-                    <p className="mb-3 font-normal text-gray-500 dark:text-gray-300">
-                      A website to determine the weather for 3 days by
-                      specifying your location and the country in which you are
-                      located
-                    </p>
+                    
                   </div>
                   <div className="flex justify-between items-center border border-slate-600 rounded-md mt-1 p-1">
                     <div className="flex gap-3 text-lg">
@@ -320,7 +306,7 @@ function ProjectJs() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                <div className="port min-hover p-5  shadow border border-slate-600 rounded-md">
+                <div className="port  p-5  shadow border border-slate-600 rounded-md">
                   <div className=" overflow-hidden rounded-md ">
                     <img
                       className="rounded-t-lg w-full h-64 rounded-lg transition-all hover:scale-105 "
@@ -328,14 +314,11 @@ function ProjectJs() {
                       alt="yummy"
                     />
                   </div>
-                  <div className="my-2 h-[130px] ">
+                  <div className="my-2  ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-red-800">
                       Yummy
                     </h5>
-                    <p className="mb-3 font-normal text-gray-500 dark:text-gray-300">
-                      A website for all types of foods and how to prepare them
-                      in various countries of the world
-                    </p>
+                   
                   </div>
                   <div className="flex justify-between items-center border border-slate-600 rounded-md mt-1 p-1">
                     <div className="flex gap-3 text-lg">
@@ -379,7 +362,7 @@ function ProjectJs() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                <div className="port min-hover p-5  shadow border border-slate-600 rounded-md">
+                <div className="port  p-5  shadow border border-slate-600 rounded-md">
                   <div className="overflow-hidden rounded-md ">
                     <img
                       className="rounded-t-lg w-full h-64 rounded-lg transition-all hover:scale-105 "
@@ -387,15 +370,11 @@ function ProjectJs() {
                       alt="mark"
                     />
                   </div>
-                  <div className="my-2 h-[130px] ">
+                  <div className="my-2  ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-red-800">
                       Bookmark
                     </h5>
-                    <p className="mb-3 font-normal text-gray-500 dark:text-gray-300">
-                      A website for adding any website that have a name and link
-                      , I can delete any website or make any view link of
-                      website
-                    </p>
+                  
                   </div>
                   <div className="flex justify-between items-center border border-slate-600 rounded-md mt-1 p-1">
                     <div className="flex gap-3 text-lg">

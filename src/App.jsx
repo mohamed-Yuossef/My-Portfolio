@@ -21,8 +21,8 @@ let x = createBrowserRouter([
         path: "myProjects",
         element: <MyProjects />,
         children: [
-          { index: true, element: <ProjectCss /> },
-          { path: "projectJs", element: <ProjectJs /> },
+          // { element: <ProjectCss /> },
+          {  index: true, element: <ProjectJs /> },
           { path: "projectReact", element: <ProjectReact /> },
         ],
       },
